@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rishav — Queer Organizer &amp; Researcher</title>
+  <meta name="description" content="Rishav is a queer organizer and researcher committed to community-making through art, joy and performance. PhD candidate, Columbia University.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Minimal Initial Loader -->
+  <div class="loader">
+    <div class="loader__line"></div>
+  </div>
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand" data-view="view-about">Rishav</a>
+      <button class="nav__toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link nav__link--active" data-view="view-about">About</a>
+        <a href="writing.html" class="nav__link" data-view="view-writing">Writing</a>
+        <a href="research.html" class="nav__link" data-view="view-research">Research</a>
+        <a href="teaching.html" class="nav__link" data-view="view-teaching">Teaching</a>
+        <a href="press.html" class="nav__link" data-view="view-press">Press</a>
+        <a href="contact.html" class="nav__link nav__link--contact" data-view="view-contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ====== MAIN CONTENT VIEWS (ZERO-RELOAD SPA) ====== -->
+  <main>
+
+    <!-- ── 1. ABOUT VIEW ── -->
+    <div id="view-about" class="page-view is-active">
+      <section class="section section--hero">
+        <div class="container">
+          <div class="hero">
+            <div class="hero__image-wrapper">
+              <img
+                src="images/portrait-placeholder.svg"
+                alt="Portrait of Rishav"
+                class="hero__image"
+              >
+            </div>
+            <div class="hero__content">
+              <h1 class="hero__name">Rishav</h1>
+              <p class="hero__title">Queer Organizer · Researcher · PhD Candidate, Columbia University</p>
+              <p class="hero__bio">
+                Rishav is a queer organizer and researcher committed to community-making through art, joy and performance. They are a PhD candidate in the Department of Anthropology and the Institute for the Study of Sexuality and Gender, Columbia University. Their doctoral research is a multimodal ethnography of queertrans persons and nightlife in clubs, indigenous agrarian festivals, and sacred stages in the frontier region of Assam, India.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ── 2. WRITING VIEW ── -->
+    <div id="view-writing" class="page-view">
+      <div class="container">
+        <header class="page-header">
+          <h1 class="page-header__title">Writing</h1>
+        </header>
+        <section class="section" style="padding-top: 0;">
+          <h2 class="section-title">Public Writing</h2>
+          <div class="writing-entry">
+            <p class="writing-entry__category">Essay · The Chinky Homo Project — Pandemic Series</p>
+            <h3 class="writing-entry__title">
+              <a href="https://thechinkyhomoproject.wordpress.com/2021/06/13/an-assamese-in-delhi-failed-identifications-ambient-racism-on-grindr/" target="_blank" rel="noopener">
+                An Assamese in Delhi: Failed Identifications, Ambient Racism on Grindr
+              </a>
+            </h3>
+            <p class="writing-entry__meta">June 13, 2021 · <em>The Chinky Homo Project</em> (curated by Kumam Davidson Singh)</p>
+            <p class="writing-entry__excerpt">
+              An essay reflecting on identity, displacement, and the ambient racism encountered by people from Northeast India in mainland urban spaces — narrated through a Grindr interaction in Delhi. The piece examines how racial assumptions and failed identifications structure intimate digital encounters, tracing the gap between "passing" as a mainland Delhiite and the everyday violence endured by those who visibly "look Northeastern." It connects the politics of recognition on dating apps to larger questions of belonging, state-sanctioned gatekeeping, and the curious entitlement of the mainland "knower."
+            </p>
+            <a href="https://thechinkyhomoproject.wordpress.com/2021/06/13/an-assamese-in-delhi-failed-identifications-ambient-racism-on-grindr/" target="_blank" rel="noopener" class="writing-entry__link">
+              Read the full essay &rarr;
+            </a>
+          </div>
+
+          <hr class="divider">
+
+          <h2 class="section-title">Peer-Reviewed Articles</h2>
+          <ul class="pub-list">
+            <li>
+              [Author]. (Forthcoming). "Title of upcoming article on queertrans nightlife and belonging."
+              <em>Journal Name</em>, Vol(Issue).
+            </li>
+            <li>
+              [Author]. (Forthcoming). "Title of article on digital queer cultures in Northeast India."
+              <em>Journal Name</em>, Vol(Issue).
+            </li>
+          </ul>
+
+          <hr class="divider">
+
+          <h2 class="section-title">Book Chapters</h2>
+          <ul class="pub-list">
+            <li>
+              [Author]. (Forthcoming). "Chapter title on performance, ritual, and queer world-making."
+              In [Editor] (Ed.), <em>Book Title</em> (pp. XX–XX). Publisher.
+            </li>
+          </ul>
+
+          <hr class="divider">
+
+          <h2 class="section-title">Other Public Writing</h2>
+          <div class="writing-entry">
+            <p class="writing-entry__category">Essay · Forthcoming</p>
+            <h3 class="writing-entry__title">
+              <a href="#">Sample Title: Joy as Method in Queer Fieldwork</a>
+            </h3>
+            <p class="writing-entry__meta">Forthcoming · <em>Publication Name</em></p>
+            <p class="writing-entry__excerpt">
+              Placeholder description for an upcoming essay. Replace this text with the actual abstract or excerpt when available.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- ── 3. RESEARCH VIEW ── -->
+    <div id="view-research" class="page-view">
+      <div class="container">
+        <header class="page-header">
+          <h1 class="page-header__title">Research</h1>
+        </header>
+        <section class="section" style="padding-top: 0;">
+          <div class="research-statement">
+            <p>
+              My research sits at the intersections of queer anthropology, performance studies, South Asian studies, and digital ethnography. I am interested in how queertrans communities create worlds through embodied practice — in nightclubs, on sacred stages, during indigenous agrarian festivals, and across digital platforms.
+            </p>
+            <p>
+              Drawing on long-term fieldwork in Assam, India, my work explores how gender and sexual minorities navigate structural violence, precarity, and dispossession while simultaneously generating creative futures, new social possibilities, and rich aesthetic expressions. I combine traditional ethnographic methods — participant observation, in-depth interviews, and archival research — with multimodal and digital ethnographic approaches, including social media analysis, photography, and video.
+            </p>
+            <p>
+              Central to my scholarship is a commitment to understanding pleasure, joy, and play not merely as counterpoints to suffering but as political and analytical categories in their own right — modes through which marginalized communities assert presence, forge solidarity, and reimagine the conditions of their existence.
+            </p>
+          </div>
+
+          <hr class="divider">
+
+          <h2 class="section-title">Current Projects</h2>
+          <div class="project">
+            <div class="project__image" style="display:flex;align-items:center;justify-content:center;color:#aaa;font-size:14px;font-family:var(--font-condensed);letter-spacing:0.08em;">
+              IMAGE
+            </div>
+            <div>
+              <h3 class="project__title">Dissertation: Queertrans Nightlife and Ritual in Assam</h3>
+              <p class="project__description">
+                A multimodal ethnography examining how queertrans persons navigate and create community through nightlife in urban clubs, indigenous agrarian festivals such as Bihu, and sacred performance stages in the frontier region of Assam, India. The project traces how pleasure, precarity, and performance intertwine in spaces where belonging is continuously negotiated across lines of gender, sexuality, ethnicity, and caste.
+              </p>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project__image" style="display:flex;align-items:center;justify-content:center;color:#aaa;font-size:14px;font-family:var(--font-condensed);letter-spacing:0.08em;">
+              IMAGE
+            </div>
+            <div>
+              <h3 class="project__title">Digital Queer Cultures of Northeast India</h3>
+              <p class="project__description">
+                An ongoing digital ethnography exploring how queer and trans individuals from Northeast India use social media platforms, dating apps, and online zines to build community, share narratives, and resist ambient racism and heteronormativity across geographical and political borders.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- ── 4. TEACHING VIEW ── -->
+    <div id="view-teaching" class="page-view">
+      <div class="container">
+        <header class="page-header">
+          <h1 class="page-header__title">Teaching</h1>
+        </header>
+        <section class="section" style="padding-top: 0;">
+          <h2 class="section-title">Teaching Philosophy</h2>
+          <div class="teaching-statement">
+            <p>
+              My teaching is grounded in queer, feminist, decolonial, and transnational perspectives. I am committed to centering voices and knowledge systems that have been historically marginalized — particularly those emerging from the Global South, Indigenous communities, and queertrans experiences — while challenging canonical, Western-centric approaches to anthropology, gender studies, and area studies.
+            </p>
+            <p>
+              In the classroom, I draw on ethnographic texts, critical theory, film, social media, and performance to create spaces for rigorous intellectual engagement and collective exploration. I believe teaching is itself a form of community-making: an opportunity to practice the careful listening, generous critique, and radical imagination that the worlds we study demand.
+            </p>
+          </div>
+
+          <hr class="divider">
+
+          <h2 class="section-title">Courses Taught</h2>
+          <ul class="course-list">
+            <li>
+              <span class="course-title">Introduction to Cultural Anthropology</span>
+              <span class="course-code">(ANTH 1001)</span>
+            </li>
+            <li>
+              <span class="course-title">Queer Anthropology</span>
+              <span class="course-code">(ANTH 3XXX)</span>
+            </li>
+            <li>
+              <span class="course-title">Gender, Sexuality, and Performance</span>
+              <span class="course-code">(ANTH 4XXX / IRGS XXXX)</span>
+            </li>
+            <li>
+              <span class="course-title">Digital Cultures and Ethnography</span>
+              <span class="course-code">(ANTH 3XXX)</span>
+            </li>
+            <li>
+              <span class="course-title">South Asia: Politics, Culture, and Society</span>
+              <span class="course-code">(ANTH 2XXX / MEALAC XXXX)</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <!-- ── 5. PRESS VIEW ── -->
+    <div id="view-press" class="page-view">
+      <div class="container">
+        <header class="page-header">
+          <h1 class="page-header__title">Press</h1>
+        </header>
+        <section class="section" style="padding-top: 0;">
+          <div class="press-entry">
+            <p class="press-entry__date">November 2026</p>
+            <h3 class="press-entry__headline">Website Launch</h3>
+            <p class="press-entry__body">
+              Excited to announce the launch of this academic portfolio. The site serves as a home for research updates, publications, teaching resources, and announcements about upcoming presentations and speaking engagements.
+            </p>
+          </div>
+
+          <div class="press-entry">
+            <p class="press-entry__date">June 2021</p>
+            <h3 class="press-entry__headline">Essay Published in The Chinky Homo Project</h3>
+            <p class="press-entry__body">
+              Published "An Assamese in Delhi: Failed Identifications, Ambient Racism on Grindr" as part of <em>The Pandemic Series</em>, curated by Kumam Davidson Singh, on <em>The Chinky Homo Project</em> — a digital queer anthology of Northeast India.
+              <a href="https://thechinkyhomoproject.wordpress.com/2021/06/13/an-assamese-in-delhi-failed-identifications-ambient-racism-on-grindr/" target="_blank" rel="noopener">Read it here.</a>
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- ── 6. CONTACT VIEW (EXACT SCREENSHOT REPLICATION) ── -->
+    <div id="view-contact" class="page-view">
+      <div class="contact-section-wrapper">
+        <div class="contact-grid">
+
+          <!-- Left Column: Big Condensed Title + Subtitle -->
+          <div class="contact-sidebar">
+            <h1 class="contact-hero-title">CONTACT</h1>
+            <p class="contact-hero-sub">
+              Please fill out this form to get in touch with me for requests for academic opportunities, speaking engagements, and any other inquiries.
+            </p>
+          </div>
+
+          <!-- Right Column: Required note + Form -->
+          <div class="contact-form-pane">
+            <p class="form-required-note">"*" indicates required fields</p>
+
+            <form class="contact-form" action="#" method="post">
+              <!-- Row 1: First Name & Last Name Side-by-Side -->
+              <div class="form-row-2col">
+                <div class="form-field-group">
+                  <label for="first-name">FIRST NAME <span class="req">*</span></label>
+                  <input type="text" id="first-name" name="first_name" required>
+                </div>
+                <div class="form-field-group">
+                  <label for="last-name">LAST NAME <span class="req">*</span></label>
+                  <input type="text" id="last-name" name="last_name" required>
+                </div>
+              </div>
+
+              <!-- Row 2: Email Address -->
+              <div class="form-field-group">
+                <label for="email">EMAIL ADDRESS <span class="req">*</span></label>
+                <input type="email" id="email" name="email" required>
+              </div>
+
+              <!-- Row 3: Subject -->
+              <div class="form-field-group">
+                <label for="subject">SUBJECT <span class="req">*</span></label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+
+              <!-- Row 4: Message -->
+              <div class="form-field-group">
+                <label for="message">MESSAGE <span class="req">*</span></label>
+                <textarea id="message" name="message" placeholder="Type your message here" required></textarea>
+              </div>
+
+              <!-- Row 5: Outline Send Button -->
+              <button type="submit" class="btn-outline-send">SEND MESSAGE</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ====== FOOTER (MATCHING SCREENSHOT) ====== -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <!-- Left: Bio -->
+      <div class="footer-bio">
+        <p>
+          Rishav is a <span class="bio-hl">queer organizer and researcher</span> working at the intersections of queer studies, critical theory, popular culture, digital anthropology, and South Asian studies.
+        </p>
+      </div>
+
+      <!-- Center: Contact info with icons -->
+      <div class="footer-contacts">
+        <div class="footer-contact-row">
+          <svg class="footer-icon-svg" viewBox="0 0 24 24">
+            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+          <a href="mailto:your-email@columbia.edu">YOUR-EMAIL@COLUMBIA.EDU</a>
+        </div>
+        <div class="footer-contact-row">
+          <svg class="footer-icon-svg" viewBox="0 0 24 24">
+            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+          </svg>
+          <span>(781) 736-2220</span>
+        </div>
+      </div>
+
+      <!-- Right: Academic & LinkedIn Icons -->
+      <div class="footer-socials">
+        <a href="#" aria-label="Academic Affiliation" class="footer-social-link">
+          <svg class="footer-social-icon" viewBox="0 0 24 24">
+            <path d="M12 2L2 7v2h20V7L12 2zm-8 7v8h3V9H4zm5 0v8h3V9H9zm5 0v8h3V9h-3zm5 0v8h3V9h-3zM2 19v3h20v-3H2z"/>
+          </svg>
+        </a>
+        <a href="#" aria-label="LinkedIn" class="footer-social-link">
+          <svg class="footer-social-icon" viewBox="0 0 24 24">
+            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Rishav</p>
+    </div>
+  </footer>
+
+  <script src="js/animations.js"></script>
+</body>
+</html>
