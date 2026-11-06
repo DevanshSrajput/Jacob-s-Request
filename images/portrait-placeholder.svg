@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="340" viewBox="0 0 280 340">
+  <rect width="280" height="340" fill="#f0f0f0"/>
+  <text x="140" y="160" text-anchor="middle" font-family="Inter, Helvetica Neue, sans-serif" font-size="14" fill="#aaaaaa" letter-spacing="0.05em">YOUR</text>
+  <text x="140" y="180" text-anchor="middle" font-family="Inter, Helvetica Neue, sans-serif" font-size="14" fill="#aaaaaa" letter-spacing="0.05em">PHOTO</text>
+  <text x="140" y="200" text-anchor="middle" font-family="Inter, Helvetica Neue, sans-serif" font-size="14" fill="#aaaaaa" letter-spacing="0.05em">HERE</text>
+  <!-- Silhouette icon -->
+  <circle cx="140" cy="110" r="30" fill="#dddddd"/>
+  <ellipse cx="140" cy="165" rx="40" ry="25" fill="#dddddd"/>
+</svg>
+
